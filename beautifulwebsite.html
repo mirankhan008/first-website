@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS- Cascading Style Sheet</title>
+    <style>
+        h1 {
+            color: white;
+            background-color: cornflowerblue;
+            height: 90px;
+            width: 60%;
+        }
+        
+        h3 {
+            color: rgba(238, 234, 241, 0.664);
+            background-color: crimson;
+            height: 90px;
+            width: 400px;
+        }
+        
+        p {
+            color: #a52a2a83;
+            padding: 10px;
+            margin: 0;
+            border-color: black;
+            border-style: double;
+            font-size: 25px;
+            font-weight: 600;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        img {
+            display: block;
+            height: 50%;
+            width: 40%;
+            border-radius: 10%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-left-width: 50px;
+            border-color: rgb(144, 250, 83);
+            margin-left: 10px;
+        }
+        
+        #murgi {
+            color: black;
+            font-size: 100px;
+        }
+        
+        .boom {
+            color: white;
+            background-color: black;
+            font-size: 70px;
+        }
+        
+        h1.boom {
+            width: 60%;
+        }
+        
+        #murgi.boom {
+            color: white;
+            background-color: black;
+            font-size: 70px;
+        }
+        
+        .blog {
+            background-color: teal;
+            border: 10px solid black;
+            border-radius: 30px;
+        }
+        
+        .blog1 {
+            background-color: tomato;
+            margin-top: 10PX;
+            border: 10px dotted green;
+        }
+        
+        .red {
+            color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="blog">
+        <H1 class="boom">Adding Makeup-Yah!</H1>
+        <h3>But Another <span class="red"> MakeUp </span> Man Still Here. </h3>
+        <h1>He Could be a stylish Women.</h1>
+        <p>this is purpos.</p>
+        <p>this is purpos.</p>
+    </div>
+    <div class="blog1">
+        <p>this is purpos.</p>
+        <p>this is purpos.</p>
+        <p id="murgi" class="boom">this is purpos.</p>
+        <img src="b.jpg" alt="">
+        <p class="boom">september <span class="red">August</span> july</p>
+        <p class="boom">ami tumi tumra amara</p>
+    </div>
+</body>
+
+</html>
